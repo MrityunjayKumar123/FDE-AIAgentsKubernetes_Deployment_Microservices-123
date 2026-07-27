@@ -11,7 +11,8 @@ Forward Deployment - Applied AI Agents to  deployment of production  across busi
 
 # Overview
 
-Traditional SAS platforms have been the backbone of enterprise analytics, statistical modelling, reporting, risk management, and decision automation for decades. However, modern enterprises require **autonomous, context-aware, intelligent systems** capable of reasoning, planning, collaborating, and continuously learning.
+Traditional SAS platforms have been the backbone of enterprise analytics, statistical modelling, reporting, risk management, and decision automation for decades.
+ However, modern enterprises require **autonomous, context-aware, intelligent systems** capable of reasoning, planning, collaborating, and continuously learning.
 
 This repository provides a structured framework for migrating SAS-based analytical workloads into **AI Agent ecosystems**, enabling organisations to automate business operations with intelligent agents rather than static rule-based programs.
 
@@ -158,7 +159,6 @@ Instead of migrating code line-by-line, identify:
 
 The focus shifts from **code migration** to **business capability transformation**.
 
----
 
 ## Phase 3 – Agent Design
 
@@ -175,8 +175,6 @@ Responsibilities:
 - Trigger downstream workflows
 - Monitor pipelines
 
----
-
 ### Analytics Agent
 
 Responsibilities:
@@ -186,7 +184,6 @@ Responsibilities:
 - Generate insights
 - Explain outcomes
 
----
 
 ### Risk Assessment Agent
 
@@ -197,7 +194,7 @@ Responsibilities:
 - Recommend actions
 - Escalate exceptions
 
----
+
 
 ### Customer Intelligence Agent
 
@@ -208,7 +205,6 @@ Responsibilities:
 - Predict churn
 - Suggest next-best actions
 
----
 
 ### Reporting Agent
 
@@ -219,7 +215,7 @@ Responsibilities:
 - Create natural language reports
 - Distribute insights automatically
 
----
+
 
 ### Workflow Orchestrator Agent
 
@@ -230,43 +226,22 @@ Responsibilities:
 - Resolve dependencies
 - Handle failures and retries
 
----
 
-# AI Agent Architecture
 
-```
-Business User
-      │
-      ▼
-Conversation Interface
-      │
-      ▼
-Planner Agent
-      │
-      ▼
-Task Decomposition
-      │
-      ▼
-Specialised AI Agents
- ├── Data Agent
- ├── Analytics Agent
- ├── Risk Agent
- ├── Finance Agent
- ├── Reporting Agent
- └── Compliance Agent
-      │
-      ▼
-Enterprise Tools
-      │
-      ▼
-ERP | CRM | Data Lake | APIs | Databases
-```
+**
+Specialised AI Agents**
 
----
+  Data Agent
+  Analytics Agent
+  Risk Agent
+  Finance Agent
+  Reporting Agent
+  Compliance Agent
 
-# Core Technologies
 
-### Agent Frameworks
+**Core Technologies**
+
+** Agent Frameworks**
 
 - OpenAI Agents SDK
 - LangGraph
@@ -275,9 +250,8 @@ ERP | CRM | Data Lake | APIs | Databases
 - CrewAI
 - AutoGen
 
----
 
-### AI Components
+** AI Components**
 
 - Large Language Models
 - Retrieval-Augmented Generation (RAG)
@@ -288,9 +262,9 @@ ERP | CRM | Data Lake | APIs | Databases
 - Prompt Engineering
 - Semantic Search
 
----
 
-### Enterprise Platforms
+
+** Enterprise Platforms**
 
 - Databricks
 - Snowflake
@@ -300,11 +274,9 @@ ERP | CRM | Data Lake | APIs | Databases
 - Kubernetes
 - Docker
 
----
 
-# Engineering Responsibilities
 
-## AI Engineering
+** AI Engineering**
 
 - Build intelligent agents
 - Prompt engineering
@@ -314,25 +286,23 @@ ERP | CRM | Data Lake | APIs | Databases
 
 ---
 
-## Platform Engineering
+**Platform Engineering**
 
 - Kubernetes deployment
 - Agent scaling
 - Infrastructure automation
 - High availability
 
----
 
-## Data Engineering
+** Data Engineering**
 
 - Data pipelines
 - Vector indexing
 - Feature engineering
 - Data quality
 
----
 
-## MLOps / AgentOps
+**MLOps / AgentOps**
 
 - Model versioning
 - Agent evaluation
@@ -340,9 +310,9 @@ ERP | CRM | Data Lake | APIs | Databases
 - Observability
 - Performance monitoring
 
----
 
-# Governance & Safety
+
+** Governance & Safety**
 
 Production AI Agents require:
 
@@ -356,27 +326,23 @@ Production AI Agents require:
 - Policy guardrails
 - Rollback strategies
 
----
 
-# Business KPIs
+
+** Business KPIs**
 
 Measure transformation success using:
 
-| Metric | Expected Outcome |
-|----------|-----------------|
-| Manual effort reduction | 60–90% |
-| Decision time | Minutes instead of hours |
-| Customer response time | Real-time |
-| Process automation | End-to-end |
-| Operational cost | Significant reduction |
-| Productivity | Increased |
-| Accuracy | Improved |
-| User satisfaction | Higher |
+Manual effort reduction -  60–90% 
+Decision time - Minutes instead of hours
+Customer response time - Real-time 
+Process automation - End-to-end 
+Operational cost - Significant reduction 
+Productivity - Increased 
+Accuracy - Improved 
+User satisfaction -Higher 
 
----
-
-# Future Roadmap
-
+**# Future Roadmap
+**
 - Multi-Agent collaboration
 - Autonomous workflow execution
 - Voice-enabled AI Agents
@@ -386,11 +352,14 @@ Measure transformation success using:
 - Knowledge Graph integration
 - Digital workforce automation
 
----
 
-# Key Takeaway
+**Key Takeaway**
 
-Migrating from SAS is **not simply replacing statistical code with Python or SQL**. It is an opportunity to redesign enterprise processes around **autonomous AI Agents** that can understand context, retrieve knowledge, reason about problems, collaborate with other agents, interact with enterprise systems, and continuously improve business outcomes.
+Migrating from SAS is not simply replacing statistical code with Python or SQL.
+It is an opportunity to redesign enterprise processes around
+autonomous AI Agents
+that can understand context, retrieve knowledge, reason about problems, collaborate with other agents, interact with enterprise systems, and continuously improve business outcomes.
 
-The goal is to move **from analytics platforms to intelligent business execution platforms**, where AI Agents become digital teammates that automate decisions, accelerate operations, and drive measurable business value.
-````
+The goal is to move from analytics platforms to intelligent business execution platforms,
+where AI Agents become digital teammates that automate decisions, accelerate operations, and drive measurable business value.
+
